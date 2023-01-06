@@ -1,0 +1,135 @@
+*{
+    font-family: 'Open Sans';
+    font-style: normal;
+    
+}
+/* Style of header & nav title*/
+.header{
+    background-color: #FFF8F3;
+    background-image: url('header_bg.png'), url('developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+}
+.primary-color{
+        color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:50px 200px;
+    
+    
+}
+nav ul{
+
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 50px;
+}
+.btn{
+
+     height: 50px;
+     border-radius: 10px;
+     background-color:  #FD6E0A;
+     color: white;
+     font-weight: 700;
+     font-size: 20px;
+     border: 0px;
+     padding: 18px 35px;
+     
+
+}
+/* Style of Banner */
+.Banner{
+    margin: 0 75px 0 200px;
+    display: flex;
+    align-items: center;
+}
+.Banner-title{
+    color: black;
+    font-size: 85px;
+    font-weight: 700;
+}
+.Banner-sub{
+    font-size: 45px;
+    font-weight: 600;
+
+}
+.Banner-des{
+    color:#757575;
+    margin: 30px;
+    font-weight: 400;
+    font-size: 18px;
+
+}
+.IMG{
+    width: 450px;
+    height: 600px;
+    left: 978px;
+    top: 161px;
+    
+}
+ .btn1{
+    font-weight: 700;
+    font-size: 20px;
+    color: #FD6E0A;
+    height: 50px;
+    border: 0;
+    border-radius: 10px;
+    padding: 18px 35px;
+    background-color: #eee1d8;
+
+}
+/* Main */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+/* About section style */
+.About-me{
+    background-color: #FFF8F3;
+    margin-top:  130px;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    
+}
+.sec-title{
+    margin: 48px 160px 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+.sec-des{
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.about-info-con
+{
+    display: flex;
+   justify-content: space-around;
+}
+.ab-info{
+    margin-right: 50px
+}
+
+.Info-title{
+    font-size: 20px;
+    color: #757575;
+}
+.Info-des{
+    font-weight: 400;
+    font-size: 20px;
+    color: #474747
+}
+
