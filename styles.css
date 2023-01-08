@@ -95,7 +95,7 @@ main{
 /* About section style */
 .About-me{
     background-color: #FFF8F3;
-    margin-top:  130px;
+    margin-top:  60px;
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
@@ -139,12 +139,20 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+    background-color: #FFF8F3;
     
     
 }
 .skills-cin{
     display: flex;
     gap: 40px;
+    
+}
+.skill{
+    margin: 10px 10px;
+    padding: 10px 10px;
+    background-color:white;
+    
 }
 
 .s-title{
@@ -157,9 +165,17 @@ main{
     color: #757575;
 }
 /* Summary styles */
+.Summery{
+
+    background-color: #FFF8F3;
+    margin-top:  60px;
+    border-radius: 10px;
+    padding: 10PX;
+}
 .con{
     display: flex;
     gap: 24px;
+    
 }
 .resume-t{
     font-weight: 700;
@@ -183,3 +199,57 @@ main{
 .Button{
     text-align: center;
 }
+.footer-sec
+{
+    display: flex;
+    margin:  60px 90px;
+    border-radius: 10px;
+   background-color: #FFF8F3;
+   margin-top:  60px;
+}
+.lets-connect{
+    margin: 30px;
+    padding: 60px;
+    
+}
+.connect-title{
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 60px;
+
+}
+.connect-des{
+    font-weight: 400;
+    font-size: 16px;
+    color: #474747;
+    width: 450px;
+
+}
+.lets-msg-me{
+    margin: 30px;
+    padding: 60px;
+}
+.lets-msg-me-from{
+    width: 450px;
+}
+.Input{
+    margin-bottom: 15px;
+    padding: 15px, 15px;
+    border-radius: 5px;
+    height: 30px;
+    width: 250px;
+    padding-left: 10px;
+    
+}
+.Input-txt{
+    margin-bottom: 15px;
+    border-radius: 5px;
+    padding: 15px, 15px;
+    height: 100px;
+    width: 250px;
+    padding-left: 10px;
+    padding-top: 20px;
+
+}
+
+
